@@ -4,7 +4,5 @@ Este proyecto automatiza la web de venta de billetes de Iberia usando Playwright
 
 ## Ejecución
 
-Para ejecutar las pruebas, usa el siguiente comando:
-
-```bash
-npm test
+la prueba funcional se encuentra en
+D:\HIBERUS\proyecto-iberia\src\main\typescript\pages
