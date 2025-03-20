@@ -1,5 +1,4 @@
-import { runTests } from '@cucumber/cucumber';
-import { createRunner } from '@cucumber/cucumber/lib/runtime/runner';
+;
 
 const options = {
     paths: ['src/test/resources/features'],
@@ -8,3 +7,7 @@ const options = {
 };
 
 runTests(options);
+
+function runTests(options: { paths: string[]; require: string[]; format: string[]; }) {
+    throw new Error('Function not implemented.');
+}
